@@ -130,6 +130,18 @@
     text-align: center;
 }
 
+.workjibberjabber {
+    color: rgb(0, 197, 231);
+    font-size: 25px;
+    font-family: 'Poiret One', cursive;
+    text-shadow: 2px 2px #404040;
+    font-kerning: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
 .tophat {
     display: flex;
     flex-wrap: wrap;

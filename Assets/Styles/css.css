@@ -21,6 +21,14 @@
     justify-content: space-around;
 }
 
+.link {
+    color: rgb(213, 15, 248);
+    font-size: 25px;
+    font-family: 'Poiret One', cursive;
+    text-shadow: 2px 2px #404040;
+    font-kerning: auto;
+}
+
 .img {
     opacity: 0.3;
     border-radius: 12px;

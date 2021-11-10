@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+.pink {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 80px 0 50px;
+    font-size: 50px;
+    font-kerning: auto;
+    color: #a80079;
+    text-shadow: 2px 2px #404040;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.img {
+    opacity: 0.3;
+    border-radius: 12px;
+    max-width: 100%;
+    height: auto;
+}
+
+.img:hover {
+    opacity: 1;
+}
+
+.imgtext {
+    transition: .6s ease;
+    opacity: 0;
+}
+
+.img:hover .imgtext {
+    opacity: 1;
+}
+
+.textboi {
+    color: rgb(0, 197, 231);
+    font-size: 30px;
+    padding: 25px 10px;
+    font-family: 'Poiret One', cursive;
+    text-shadow: 2px 2px #404040;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.foot {
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+    padding: 10px 0 265px;
+    font-size: 20px;
+    font-kerning: auto;
+    opacity: 0.6;
+    color: #a80079;
+    text-shadow: 2px 2px #404040;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.sliding-background {
+    background: url("https://i.imgur.com/xlEPGh1.png");
+    background-size: cover;
+    animation: scroll 240s linear infinite;
+  }
+
+.boibox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.boi {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.aboot {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 60px 0 40px;
+    font-size: 75px;
+    font-kerning: auto;
+    color: #a80079;
+    text-shadow: 2px 2px #404040;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.jibberjabber {
+    color: rgb(0, 197, 231);
+    font-size: 25px;
+    padding: 25px 100px;
+    font-family: 'Poiret One', cursive;
+    text-shadow: 2px 2px #404040;
+    font-kerning: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.tophat {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 0 0 80px;
+}
+
+.git {
+    filter:invert(100%);
+    max-width: 80%;
+    height: auto;
+}
+
+.LE {
+    max-width: 80%;
+    height: auto;
+}
+
+.jits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 30%;
+    height: auto;
+}
+
+.workpink {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 60px 0 30px;
+    font-size: 70px;
+    font-kerning: auto;
+    color: #a80079;
+    text-shadow: 2px 2px #404040;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+@media screen and (max-width: 900px) {
+    .pink {
+        font-size: 35px;
+    }
+    .img {
+        opacity: 1;
+    }
+    .imgtext {
+        opacity: 1;
+    }
+    .foot {
+        padding: 10px 0 75px;
+    }
+    .pink {
+        padding: 40px 0 30px;
+    }
+    .jibberjabber {
+        font-size: 20px;
+        padding: 18px 0 100px;
+    }
+    .aboot {
+        font-size: 50px;
+        padding: 50px 0 35px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .pink {
+        font-size: 25px;
+    }
+    .foot {
+        padding: 10px;
+    }
+    .aboot {
+        font-size: 35px;
+        padding: 25px 0 25px;
+        }
+    .jibberjabber {
+        font-size: 20px;
+        padding: 10px 10px 50px;
+        }
+    .boots {
+        max-width: 80%;
+        height: auto;
+    }
+}
+
+@keyframes scroll{
+    0% {background-position:0 0;}
+    50% {background-position:0 100%;}
+  }
+
+/* og bg https://i.imgur.com/bhyAywE.png */  

@@ -15,6 +15,13 @@
     font-family: 'Josefin Sans', sans-serif;
 }
 
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
 .links {
     display: flex;
     flex-wrap: wrap;
